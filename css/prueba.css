@@ -1,1 +1,57 @@
 /* En este archivo debe agregar las clases CSS que considere necesarias para la realización de las pruebas de páginas Estáticas */
+
+/*---PRUEBA ESTÁTICA 1---*/
+/*Para páginas Web*/
+.opcion{
+    width: 25%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*Para Tablets*/
+@media only screen and (max-width:800px) {
+    .opcion{
+        width: 50%;
+        margin-bottom: 5%;
+    }
+}
+/*Para celulares*/
+@media only screen and (max-width:500px) {
+    .opcion{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .descrip{
+        display: none;
+    }
+    #titulo1, #titulo2{
+        font-size: 75%;
+    }
+}
+/*opciones*/
+.img{
+    display: block; 
+    margin: auto;
+}
+.linktype{
+    text-align: center
+}
+.descrip{
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center
+}
+.info{
+    display: block; 
+    margin: auto;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #76787C;
+    color: white;
+}
+#new_tab{
+    text-decoration:none;
+}
