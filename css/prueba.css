@@ -34,7 +34,8 @@
     margin: auto;
 }
 .linktype{
-    text-align: center
+    text-align: center;
+    margin-top: 8px;
 }
 .descrip{
     padding-right: 5%;
@@ -60,6 +61,7 @@
 /*PRUEBA ESTÁTICA 2*/
 #titulo2{
     margin-left: 40px;
+    
 }
 form{
     margin-left: 15%;
