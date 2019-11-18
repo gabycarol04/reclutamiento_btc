@@ -56,6 +56,72 @@
     text-decoration:none;
 }
 
+
+/*PRUEBA ESTÁTICA 2*/
+#titulo2{
+    margin-left: 40px;
+}
+form{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    
+    border-radius: 3px;
+}
+
+.form_float{
+    position: relative;
+    width: 50%;
+    float: left;
+}
+.form_color{
+    color: #25ABD2;
+    font-weight: bold;
+}
+.campo1{
+    position: relative;
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none; 
+    background-color: #E2E9EA;   
+}
+.campo2{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;   
+    background-color: #E2E9EA;  
+}
+.campo3{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #E2E9EA; 
+}
+.campo4{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #E2E9EA; 
+}
+.btn_form{
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #76787C;
+    float: right;
+    color: white;
+}
+
+
 /*PRUEBA ESTÁTICA 3*/
 .prueba3{
     margin-top: 5px;
